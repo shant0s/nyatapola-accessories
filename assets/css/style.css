@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 27, 2017, 5:08:03 PM
+    Author     : shant0s
+*/
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+    position: relative;
+    min-height:100%;
+    padding-bottom:80px;
+  
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height: 80px;
+    width: 100%;
+    border-top:1px solid #000;
+    padding:15px;
+   
+}
+
+.jumbotron{
+    background-image: url('../..//images/barpark.jpg'); 
+    background-size: cover; 
+    color: #fff; 
+    height: 400px;
+}
+
+.add_cart{
+    width: 360px;
+}
+
+p.caption{
+    padding-top: 500px;
+}
